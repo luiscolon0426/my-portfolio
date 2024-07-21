@@ -16,6 +16,8 @@ function Home({ title }: HomeProps) {
         modernizing codebases. Certified in Full Stack Engineering and UI/UX
         design. Bilingual in English and Spanish. Ready for a new challenge!
       </p>
+      <button>Get in Touch</button>
+      <button>Download CV</button>
     </div>
   );
 }

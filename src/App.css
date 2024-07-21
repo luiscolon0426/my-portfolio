@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .home-content {
   max-width: 800px; /* 👁️Adjust based on the FINAL design */
 }

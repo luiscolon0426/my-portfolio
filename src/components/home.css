@@ -1,0 +1,19 @@
+#home {
+  position: relative;
+  /* max-width: 800px; use this for the center text description */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 800px; /* Adjust based on the FINAL design */
+}
+
+.button-container {
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  top: 50%; /* Center vertically */
+  transform: translate(-50%, -50%); /* Adjust for perfect centering */
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}

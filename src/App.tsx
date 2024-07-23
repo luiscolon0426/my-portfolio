@@ -2,6 +2,7 @@ import React from "react";
 import "./global.css";
 import "./nav.css";
 import Home from "./components/Home";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
       </nav>
       <Home title={""} />
       {/* 🏗️COMING SOON🚧 */}
-      {/* <Experience/> */}
+      <Experience title={""} description={""} />
       {/* <Projects/> */}
       {/* <Contact/> */}
       {/* 🏗️COMING SOON🚧 */}

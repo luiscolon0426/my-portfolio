@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import "./button.css";
-import profileImage from "./profile-image.svg";
+import profileImage from "./assets/profile-image.svg";
 
 interface HomeProps {
   title: string;

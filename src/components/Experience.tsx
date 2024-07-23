@@ -8,8 +8,8 @@ interface ExperienceProps {
 function Experience({ title, description }: ExperienceProps) {
   return (
     <div id="experience">
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <h3>Experience With</h3>
+      <div></div>
     </div>
   );
 }

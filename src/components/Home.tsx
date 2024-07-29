@@ -1,6 +1,4 @@
-// Home.tsx
-
-import React, { useState } from "react";
+import React from "react";
 import "./home.css";
 import "./button.css";
 import resumePdf from "./assets/resume.pdf"; // Import the resume PDF
@@ -12,14 +10,19 @@ interface HomeProps {
 }
 
 function Home({ title }: HomeProps) {
-  const [showModal, setShowModal] = useState(false);
+  const [showCVModal, setShowCVModal] = React.useState(false);
 
   const handleCVPreview = () => {
-    setShowModal(true);
+    setShowCVModal(true);
   };
 
-  const handleCloseModal = () => {
-    setShowModal(false);
+  const handleCloseCVModal = () => {
+    setShowCVModal(false);
+  };
+
+  const handleGetInTouch = () => {
+    window.location.href =
+      "mailto:luiscolon0426@gmail.com?subject=Inquiry&body=Hello Luis,";
   };
 
   return (
@@ -46,7 +49,9 @@ function Home({ title }: HomeProps) {
         design. Bilingual in English and Spanish. Ready for a new challenge!
       </p>
       <div className="buttons">
-        <button className="btn-primary">Get in Touch</button>
+        <button className="btn-primary" onClick={handleGetInTouch}>
+          Get in Touch
+        </button>
         <button className="btn-secondary" onClick={handleCVPreview}>
           CV Preview
         </button>
@@ -54,8 +59,8 @@ function Home({ title }: HomeProps) {
       <div className="tech-icons"></div>
 
       <Modal
-        show={showModal}
-        onClose={handleCloseModal}
+        show={showCVModal}
+        onClose={handleCloseCVModal}
         resumeUrl={resumePdf}
       />
     </div>

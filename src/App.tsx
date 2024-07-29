@@ -3,6 +3,8 @@ import "./global.css";
 import "./nav.css";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+// import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -24,11 +26,9 @@ function App() {
         </ul>
       </nav>
       <Home title={""} />
-      {/* 🏗️COMING SOON🚧 */}
       <Experience title={""} description={""} />
-      {/* <Projects/> */}
-      {/* <Contact/> */}
-      {/* 🏗️COMING SOON🚧 */}
+      {/* <Projects title={""} description={""} /> */}
+      <Contact message={""} />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./projects.css";
 
 interface ProjectsProps {
   title: string;
@@ -8,8 +9,10 @@ interface ProjectsProps {
 function Projects({ title, description }: ProjectsProps) {
   return (
     <div id="projects">
-      <h1>{title}</h1>
-      <p>{description}</p>
+      <div className="PROJECTSCONTAINER">
+        <h1 className="PROJECTSTITLE">PROJECTS</h1>
+        <div className="allProjects"></div>
+      </div>
     </div>
   );
 }

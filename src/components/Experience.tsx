@@ -23,7 +23,7 @@ interface ExperienceProps {
 
 function Experience({ title, description }: ExperienceProps) {
   return (
-    <div>
+    <div id="experience">
       <h5>EXPERIENCE WITH</h5>
       <div className="iconContainer">
         <img src={javascript} alt="JS" className="experienceIcons" />

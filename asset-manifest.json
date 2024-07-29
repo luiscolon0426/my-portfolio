@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a89579b.css",
+    "main.js": "/static/js/main.eb2ffa57.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/profile-image.svg": "/static/media/profile-image.7cfd46c0ba12b501494770da10ba845b.svg",
+    "static/media/resume.pdf": "/static/media/resume.6641bc984979e76ab458.pdf",
+    "static/media/git-icon.svg": "/static/media/git-icon.bba2b76c768ee7e0fb1ea249e0275e56.svg",
+    "static/media/gitlab-icon.svg": "/static/media/gitlab-icon.389aeca612c38102298f39f9f06f3630.svg",
+    "static/media/react-icon.svg": "/static/media/react-icon.5f0d9fb6fd00300f5a2cc743c67ea537.svg",
+    "static/media/nodeJS-icon.svg": "/static/media/nodeJS-icon.3f875ab3cd0866d6bb76a89522357bd9.svg",
+    "static/media/python-icon.svg": "/static/media/python-icon.e08f4bd1d1e9f31bfe6d8b0e52b18262.svg",
+    "static/media/nextJS-icon.svg": "/static/media/nextJS-icon.3d5eadcd74adaede1d4d48a1d23d58bc.svg",
+    "static/media/figma-icon.svg": "/static/media/figma-icon.9d0b0040fd3dd6ca9a2232b19873e43c.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.58d5859f3b90a08da2a912e3a1695822.svg",
+    "static/media/typescript-icon.svg": "/static/media/typescript-icon.071c1e0e0e0e08e61383e86e1d541ed8.svg",
+    "static/media/js-icon.svg": "/static/media/js-icon.5d347e323b7d441efb02bbf128600090.svg",
+    "static/media/c-icon.svg": "/static/media/c-icon.c4a67317a33fd66b3b6663eee783f5f8.svg",
+    "static/media/angular-icon.svg": "/static/media/angular-icon.10004cbb56771e91453d90620408be8f.svg",
+    "static/media/css-icon.svg": "/static/media/css-icon.ecae0eba3c5da9ec352fd00764fdc77e.svg",
+    "static/media/html-icon.svg": "/static/media/html-icon.b5dea2fcba7d1961327303691cc467c8.svg",
+    "index.html": "/index.html",
+    "static/media/vs-code-icon.svg": "/static/media/vs-code-icon.cccff8572bcc4e0d626b941e41d4d7a0.svg",
+    "main.5a89579b.css.map": "/static/css/main.5a89579b.css.map",
+    "main.eb2ffa57.js.map": "/static/js/main.eb2ffa57.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a89579b.css",
+    "static/js/main.eb2ffa57.js"
+  ]
+}

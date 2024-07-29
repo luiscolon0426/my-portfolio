@@ -1,13 +1,27 @@
-import React from "react";
+// Home.tsx
+
+import React, { useState } from "react";
 import "./home.css";
 import "./button.css";
+import resumePdf from "./assets/resume.pdf"; // Import the resume PDF
 import profileImage from "./assets/profile-image.svg";
+import Modal from "./modal";
 
 interface HomeProps {
   title: string;
 }
 
 function Home({ title }: HomeProps) {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleCVPreview = () => {
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div id="home">
       <div className="profile-section">
@@ -33,9 +47,17 @@ function Home({ title }: HomeProps) {
       </p>
       <div className="buttons">
         <button className="btn-primary">Get in Touch</button>
-        <button className="btn-secondary">CV Preview</button>
+        <button className="btn-secondary" onClick={handleCVPreview}>
+          CV Preview
+        </button>
       </div>
       <div className="tech-icons"></div>
+
+      <Modal
+        show={showModal}
+        onClose={handleCloseModal}
+        resumeUrl={resumePdf}
+      />
     </div>
   );
 }

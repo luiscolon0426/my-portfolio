@@ -4,6 +4,7 @@ import "./nav.css";
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 // import Projects from "./components/Projects";
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
       </nav>
       <Home title={""} />
       <Experience title={""} description={""} />
-      {/* <Projects title={""} description={""} /> */}
+      <Projects title={""} description={""} />
       <Contact message={""} />
     </div>
   );

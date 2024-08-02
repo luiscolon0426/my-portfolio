@@ -26,9 +26,20 @@ function Contact({ message }: ContactProps) {
           <i className="email-icon"></i> luiscolon0426@gmail.com
         </div>
         <div className="contact-icons">
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-x-twitter"></i>
-          <i className="fab fa-youtube"></i>
+          <a
+            href="https://www.linkedin.com/in/luis-colon0426/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/luiscolon0426"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
         </div>
       </div>
     </div>

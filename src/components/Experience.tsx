@@ -71,7 +71,7 @@ function Experience({ title, description }: ExperienceProps) {
 
         {/* -----------JOB 2------------- */}
 
-        <div className="experienceTitle2">
+        {/* <div className="experienceTitle2">
           <p className="labelWrapper">
             <span className="companyName">Apple / </span>
             <span className="jobPosition">Junior Software Engineer</span>
@@ -84,6 +84,23 @@ function Experience({ title, description }: ExperienceProps) {
           mission-critical software projects. Responsible for designing scalable
           and efficient systems, I provided technical leadership to a
           cross-functional team.
+        </div> */}
+
+        <div className="experienceTitle2">
+          <p className="labelWrapper">
+            <span className="companyName">Patient Onboarding System / </span>
+            <span className="jobPosition">Web Developer</span>
+            <span className="experience2">Sep 2023</span>
+          </p>
+        </div>
+        <div className="experienceSubTitle3">
+          Designed and implemented a user-friendly patient onboarding system,
+          increasing registration efficiency. Leveraged NextJs for server-side
+          rendering and React for dynamic frontend interactions, improving page
+          load speed. Integrated frontend components with backend microservices
+          using Typescript and GraphQL, enhancing data processing speed. Ensured
+          seamless data flow between frontend and backend, reducing data
+          synchronization issues.
         </div>
 
         {/* -----------JOB 3------------- */}

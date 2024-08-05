@@ -26,23 +26,97 @@ function Experience({ title, description }: ExperienceProps) {
     <div id="experience">
       <h5>EXPERIENCED IN</h5>
       <div className="iconContainer">
-        <img src={javascript} alt="JS" className="experienceIcons" />
-        <img src={typescript} alt="TS" className="experienceIcons" />
-        <img src={react} alt="React" className="experienceIcons" />
-        <img src={nodeJS} alt="node" className="experienceIcons" />
-        <img src={html} alt="HTML" className="experienceIcons" />
-        <img src={css} alt="CSS" className="experienceIcons" />
-        <img src={angular} alt="Angular" className="experienceIcons" />
+        <a
+          href="https://www.javascript.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={javascript} alt="JS" className="experienceIcons" />
+        </a>
+        <a
+          href="https://www.typescriptlang.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={typescript} alt="TS" className="experienceIcons" />
+        </a>
+        <a
+          href="https://reactjs.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={react} alt="React" className="experienceIcons" />
+        </a>
+        <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
+          <img src={nodeJS} alt="node" className="experienceIcons" />
+        </a>
+        <a
+          href="https://html.spec.whatwg.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={html} alt="HTML" className="experienceIcons" />
+        </a>
+        <a
+          href="https://www.w3.org/Style/CSS/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={css} alt="CSS" className="experienceIcons" />
+        </a>
+        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">
+          <img src={angular} alt="Angular" className="experienceIcons" />
+        </a>
       </div>
       <div className="iconContainer2">
-        <img src={python} alt="Python" className="experienceIcons" />
-        <img src={C} alt="C" className="experienceIcons" />
-        <img src={vsCode} alt="vsCode" className="experienceIcons" />
-        <img src={figma} alt="Figma" className="experienceIcons" />
-        <img src={git} alt="Git" className="experienceIcons" />
-        <img src={nextJS} alt="next" className="experienceIcons" />
-        <img src={github} alt="Github" className="experienceIcons" />
-        <img src={gitlab} alt="GitLab" className="experienceIcons" />
+        <a
+          href="https://www.python.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={python} alt="Python" className="experienceIcons" />
+        </a>
+        <a
+          href="https://en.wikipedia.org/wiki/C_(programming_language)"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={C} alt="C" className="experienceIcons" />
+        </a>
+        <a
+          href="https://code.visualstudio.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={vsCode} alt="vsCode" className="experienceIcons" />
+        </a>
+        <a
+          href="https://www.figma.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={figma} alt="Figma" className="experienceIcons" />
+        </a>
+        <a
+          href="https://git-scm.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={git} alt="Git" className="experienceIcons" />
+        </a>
+        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+          <img src={nextJS} alt="next" className="experienceIcons" />
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <img src={github} alt="Github" className="experienceIcons" />
+        </a>
+        <a
+          href="https://about.gitlab.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={gitlab} alt="GitLab" className="experienceIcons" />
+        </a>
       </div>
       <div className="TITLECONTAINER">
         <div className="EXPERIENCETITLE">Experience</div>

@@ -25,3 +25,4 @@ This is my personal web portfolio where I present my work as a software engineer
 - **Frontend**: React, TypeScript, HTML, CSS, Next.js
 - **Styling**: CSS Modules, Sass
 - **Tools**: VS Code, Git, GitHub, Figma
+Trigger redeployment

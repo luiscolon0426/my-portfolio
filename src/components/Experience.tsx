@@ -16,12 +16,7 @@ import git from "./assets/git-icon.svg";
 import github from "./assets/github-icon.svg";
 import "./experience.css";
 
-interface ExperienceProps {
-  title: string;
-  description: string;
-}
-
-function Experience({ title, description }: ExperienceProps) {
+function Experience() {
   return (
     <div id="experience">
       <h5>EXPERIENCED IN</h5>
@@ -123,15 +118,34 @@ function Experience({ title, description }: ExperienceProps) {
       </div>
       <div className="JOBS">
         {/* -----------JOB 1------------- */}
-
         <div className="experienceTitle">
           <div className="labelWrapper">
-            <span className="companyName">Coqui Health Inc / </span>
+            <span className="companyName">MISTR Inc.</span>
             <span className="jobPosition">
               Software Engineer / Web Developer
             </span>
-            <span className="experience">Mar 2023 - Jun 2024</span>
           </div>
+          <span className="experience">Sept 2024 - Present</span>
+        </div>
+        <div className="experienceSubTitle">
+          Rebuilt and refactored the MISTR app from the ground up, handling both
+          backend and frontend development to create a more efficient, scalable,
+          and user-friendly platform. Optimized codebase and database
+          interactions to enhance performance and reliability. Improved
+          workflows for a seamless online experience, working closely with
+          cross-functional teams. Documented best practices to support future
+          development and maintainability.
+        </div>
+
+        {/* -----------JOB 2------------- */}
+        <div className="experienceTitle">
+          <div className="labelWrapper">
+            <span className="companyName">Coqui Health Inc.</span>
+            <span className="jobPosition">
+              Software Engineer / Web Developer
+            </span>
+          </div>
+          <span className="experience">Mar 2023 - Jun 2024</span>
         </div>
         <div className="experienceSubTitle">
           As an Engineer and Web Developer at Coqui Health, I played a pivotal
@@ -143,31 +157,15 @@ function Experience({ title, description }: ExperienceProps) {
           features.
         </div>
 
-        {/* -----------JOB 2------------- */}
-
-        {/* <div className="experienceTitle2">
-          <p className="labelWrapper">
-            <span className="companyName">Apple / </span>
-            <span className="jobPosition">Junior Software Engineer</span>
-            <span className="experience2"> Apr 2022 - Mar 2023</span>
-          </p>
-        </div>
-        <div className="experienceSubTitle2">
-          During my tenure at Apple, I held the role of Software Architect,
-          where I played a key role in shaping the architecture of
-          mission-critical software projects. Responsible for designing scalable
-          and efficient systems, I provided technical leadership to a
-          cross-functional team.
-        </div> */}
-
-        <div className="experienceTitle2">
-          <p className="labelWrapper">
-            <span className="companyName">Patient Onboarding System / </span>
+        {/* -----------JOB 3------------- */}
+        <div className="experienceTitle">
+          <div className="labelWrapper">
+            <span className="companyName">Patient Onboarding System</span>
             <span className="jobPosition">Web Developer</span>
-            <span className="experience2">Sep 2023</span>
-          </p>
+          </div>
+          <span className="experience">Sep 2023</span>
         </div>
-        <div className="experienceSubTitle3">
+        <div className="experienceSubTitle">
           Designed and implemented a user-friendly patient onboarding system,
           increasing registration efficiency. Leveraged NextJs for server-side
           rendering and React for dynamic frontend interactions, improving page
@@ -177,24 +175,21 @@ function Experience({ title, description }: ExperienceProps) {
           synchronization issues.
         </div>
 
-        {/* -----------JOB 3------------- */}
-
-        <div className="experienceTitle3">
-          <p className="labelWrapper">
-            <span className="companyName">Hyperion Finance Inc / </span>
+        {/* -----------JOB 4------------- */}
+        <div className="experienceTitle">
+          <div className="labelWrapper">
+            <span className="companyName">Hyperion Finance Inc.</span>
             <span className="jobPosition">Full Stack Software Engineer</span>
-            <span className="experience3">Sep 2021 - Mar 2022</span>
-          </p>
+          </div>
+          <span className="experience">Sep 2021 - Mar 2022</span>
         </div>
-        <div className="experienceSubTitle3">
+        <div className="experienceSubTitle">
           At Hyperion, I served as a Full Stack Software Engineer, focusing on
           the design and implementation of backend & frontend systems for the
           app. Working on features that involved large-scale data processing and
           user engagement features, I leveraged my expertise to ensure seamless
           functionality and scalability.
         </div>
-
-        {/* -----------JOB 4------------- */}
       </div>
     </div>
   );

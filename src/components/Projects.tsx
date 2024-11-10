@@ -9,12 +9,12 @@ interface Project {
 }
 
 const projectData: Project[] = [
-  {
-    title: "CoinTrace",
-    description: "Work in Progress (link to design)",
-    link: "https://www.figma.com/design/wnBLoXpnkGX4p0HdrOhqrI/CoinTrace-Design-System?node-id=32833-466&t=jmExuryiQO2Vo6cp-1",
-    // image: ${forkify},
-  },
+  // {
+  //   title: "CoinTrace",
+  //   description: "Work in Progress (link to design)",
+  //   link: "https://www.figma.com/design/wnBLoXpnkGX4p0HdrOhqrI/CoinTrace-Design-System?node-id=32833-466&t=jmExuryiQO2Vo6cp-1",
+  //   // image: ${forkify},
+  // },
   {
     title: "Forkify",
     description: "Recipe-App",

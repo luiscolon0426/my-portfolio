@@ -44,7 +44,14 @@
   width: 300px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
 }
+
+.projectCard:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for elevation effect */
+}
+
 
 .projectImage {
   width: 100%;
@@ -70,6 +77,7 @@
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+    font-weight: bold;
   background-color: #ff6600;
   border-radius: 4px;
   text-decoration: none;
@@ -78,4 +86,6 @@
 
 .projectLink:hover {
   background-color: #ff4500;
+    text-decoration: underline;
+
 }

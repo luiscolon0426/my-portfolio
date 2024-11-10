@@ -1,4 +1,5 @@
 import React from "react";
+import UIUX from "./components/UIUX";
 import "./global.css";
 import "./nav.css";
 import Home from "./components/Home";
@@ -19,6 +20,9 @@ function App() {
             <a href="#experience">Experience</a>
           </li>
           <li>
+            <a href="uiux">UI UX</a>
+          </li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
@@ -27,7 +31,8 @@ function App() {
         </ul>
       </nav>
       <Home title={""} />
-      <Experience title={""} description={""} />
+      <Experience />
+      <UIUX />
       <Projects title={""} description={""} />
       <Contact message={""} />
     </div>

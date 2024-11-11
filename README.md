@@ -26,3 +26,4 @@ This is my personal web portfolio where I present my work as a software engineer
 - **Styling**: CSS Modules, Sass
 - **Tools**: VS Code, Git, GitHub, Figma
 Trigger redeployment
+ 

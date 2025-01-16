@@ -1,3 +1,4 @@
+/* Base Styles */
 #home {
   text-align: center;
   margin-top: 80px; /* Adjust for the fixed navbar */
@@ -28,11 +29,10 @@ h1 {
   height: 250px; /* Ensure the aspect ratio is maintained */
 }
 
-
 .profile-section {
   display: flex;
   align-items: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .greeting {
@@ -46,7 +46,6 @@ h1 {
   color: transparent;
 }
 
-
 h1 span {
   background: linear-gradient(90deg, #ff7e5f, #feb47b);
   -webkit-background-clip: text;
@@ -54,9 +53,11 @@ h1 span {
 }
 
 .description {
-  margin: 20px 380px;
+  margin: 20px auto;
+  padding: 0 10px; /* Add padding for small screens */
   font-size: 1.1em;
   color: #ccc;
+  max-width: 90%; /* Ensure it doesn't stretch too wide */
 }
 
 .buttons {
@@ -96,9 +97,54 @@ h1 span {
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap; /* Wrap icons for small screens */
 }
 
 .tech-icons img {
   width: 50px;
   height: 50px;
+}
+
+/* Responsive Styles for Phones */
+@media (max-width: 768px) {
+  #home {
+    margin-top: 60px;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .greeting {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1em;
+    margin: 15px auto;
+  }
+
+  .btn-primary, .btn-secondary {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+
+  .tech-icons img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-highlight {
+    font-size: 1.2em;
+  }
 }

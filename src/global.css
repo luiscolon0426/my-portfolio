@@ -24,3 +24,57 @@ section {
   padding: 2em;
   margin: 1em 0;
 }
+
+    /* Responsive Adjustments */
+    @media (max-width: 1200px) {
+        body, .container {
+            padding: 0 15px;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .iconContainer {
+            gap: 50px;
+        }
+        .EXPERIENCETITLE {
+            font-size: 28px;
+        }
+        .labelWrapper {
+            font-size: 18px;
+        }
+        .experienceSubTitle, .experience {
+            font-size: 14px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .iconContainer {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .EXPERIENCETITLE {
+            font-size: 24px;
+        }
+        .labelWrapper {
+            font-size: 16px;
+        }
+        .experienceSubTitle, .experience {
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .EXPERIENCETITLE {
+            font-size: 20px;
+        }
+        .labelWrapper {
+            font-size: 14px;
+        }
+        .experienceSubTitle, .experience {
+            font-size: 10px;
+        }
+        .container {
+            padding: 0 10px;
+        }
+    }
+    

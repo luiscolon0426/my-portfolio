@@ -1,8 +1,10 @@
 .PROJECTSCONTAINER {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the container */
   margin-bottom: 35px;
+  padding: 0 1rem; /* Add padding for small screens */
 }
+
 .PROJECTSTITLE {
   background-image: linear-gradient(180deg, #ff8660ff 0%, #d5491dff 100%);
   background-clip: text;
@@ -10,7 +12,6 @@
   font-size: 35px;
   font-weight: 800;
   margin-top: 35px;
-
   text-transform: uppercase;
   white-space: nowrap;
   text-align: center;
@@ -41,17 +42,16 @@
   background-color: #282828;
   border-radius: 8px;
   overflow: hidden;
-  width: 300px;
+  width: 300px; /* Card width */
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .projectCard:hover {
-  transform: translateY(-5px); /* Move the card up slightly on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for elevation effect */
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 .projectImage {
   width: 100%;
@@ -77,7 +77,7 @@
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
-    font-weight: bold;
+  font-weight: bold;
   background-color: #ff6600;
   border-radius: 4px;
   text-decoration: none;
@@ -86,6 +86,100 @@
 
 .projectLink:hover {
   background-color: #ff4500;
-    text-decoration: underline;
+  text-decoration: underline;
+}
 
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .PROJECTSCONTAINER {
+    max-width: 900px; /* Reduce container width */
+  }
+
+  .PROJECTSTITLE {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+
+  .projectCard {
+    width: 250px; /* Reduce card width */
+  }
+
+  .projectTitle {
+    font-size: 1.3rem;
+  }
+
+  .projectDescription {
+    font-size: 0.9rem;
+  }
+
+  .projectLink {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .PROJECTSCONTAINER {
+    max-width: 600px;
+    padding: 0 1rem;
+  }
+
+  .PROJECTSTITLE {
+    font-size: 1.8rem;
+    margin-top: 15px;
+  }
+
+  .allProjects {
+    gap: 1.5rem; /* Reduce gaps between cards */
+  }
+
+  .projectCard {
+    width: 100%; /* Make cards take full width */
+  }
+
+  .projectTitle {
+    font-size: 1.2rem;
+  }
+
+  .projectDescription {
+    font-size: 0.85rem;
+  }
+
+  .projectLink {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .PROJECTSCONTAINER {
+    padding: 0 0.5rem;
+  }
+
+  .PROJECTSTITLE {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .allProjects {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 1rem;
+  }
+
+  .projectCard {
+    width: 100%; /* Full width for small screens */
+  }
+
+  .projectTitle {
+    font-size: 1rem;
+  }
+
+  .projectDescription {
+    font-size: 0.8rem;
+  }
+
+  .projectLink {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+  }
 }
